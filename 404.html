@@ -9,9 +9,7 @@
         location.pathname.replace('/internship-system-main/', '') +
         location.search +
         location.hash;
-      location.replace(
-        '/internship-system-main/index.html' + (path ? '#' + path : '')
-      );
+      location.replace('/internship-system-main/' + (path ? '#' + path : ''));
     })();
   </script>
 </head>
