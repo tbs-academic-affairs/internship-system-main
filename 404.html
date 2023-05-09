@@ -6,9 +6,7 @@
   <script>
     (function () {
       var path = location.pathname.slice(1) + location.search + location.hash;
-      location.replace(
-        '/intenrship-system-main/index.html' + (path ? '#' + path : '')
-      );
+      location.replace('/' + (path ? '' + path : ''));
     })();
   </script>
 </head>
